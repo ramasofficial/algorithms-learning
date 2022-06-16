@@ -9,7 +9,7 @@ function isPalindrome($word) {
     return $arraysEqual;
 }
 
-$palindromes = ['noon', 'civic', 'reviver', 'word', 'racecar', 'redder'];
+$palindromes = ['noon', 'civic', 'reviver', 'word', 'racecar', 'redder', 10, 101];
 
 foreach($palindromes as $palindrome) {
   	echo $palindrome . "\n";
